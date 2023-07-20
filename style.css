@@ -1,0 +1,58 @@
+/* This is the CSS for the entire website */
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	background: #282828;
+    font-family: 'JetBrains Mono', monospace;
+	color: white;
+}
+
+/* Main page */
+.title {
+	padding: 1em;
+}
+
+.title a {
+	color: white;
+	text-decoration: none;
+}
+
+.main-box {
+	padding: 0;
+}
+
+.about {
+	padding: 1em;
+}
+
+.about h3 {
+	text-decoration: underline;
+}
+
+.about p {
+	white-space: pre-wrap;
+}
+
+.socials {
+	padding: 1em;
+}
+
+.socials a {
+	color: white;
+}
+
+footer {
+	position: fixed;
+	text-align: center;
+	padding: 1em;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
